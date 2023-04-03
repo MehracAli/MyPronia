@@ -4,7 +4,11 @@
     <div class="col-xl-3 col-md-4 col-sm-6">
         <div class="product-item">
             <div class="product-img">
-                <a href="shop.html">
+                <a 
+                    asp-controller="Plant"
+                    asp-action="Detail"
+                    asp-route-Id ="@item.Id"
+                    >
                     <img class="primary-img"
                          src="~/assets/images/website-images/@(item.Images.FirstOrDefault(i=>i.IsMain is true)?.ImagePath )"
                          alt="Product Images" />

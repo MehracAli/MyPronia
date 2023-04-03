@@ -4,9 +4,40 @@ using Newtonsoft.Json;
 using Pronia.DAL;
 using Pronia.Entities.PlantModels;
 using Pronia.ViewModels;
+using System.Collections;
+using System.Diagnostics.CodeAnalysis;
+using System.Numerics;
 
 namespace Pronia.Controllers
 {
+    public class PlantComparer : IEqualityComparer<Plant>
+    {
+        public bool Equals(Plant? x, Plant? y)
+        {
+            if (Equals(x?.Id, y?.Id)) return true;
+            return false;
+        }
+
+        public int GetHashCode([DisallowNull] Plant obj)
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    public class PlantCategoryComparer : IEqualityComparer<PlantCategory>
+    {
+        public bool Equals(PlantCategory? x, PlantCategory? y)
+        {
+            if (Equals(x?.Categories.Id, y?.Categories.Id)) return true;
+            return false;
+        }
+
+        public int GetHashCode([DisallowNull] PlantCategory obj)
+        {
+            throw new NotImplementedException();
+        }
+    }
+
     public class PlantController:Controller
     {
         ProniaDbContext _context { get; set; }
@@ -25,18 +56,42 @@ namespace Pronia.Controllers
         public IActionResult Detail(int Id)
         {
             if (Id == 0) return NotFound();
-            Plant? plant = _context.Plants.Include(p => p.PlantCategories).ThenInclude(pc => pc.Categories)
+
+            IQueryable<Plant> plants = _context.Plants.AsNoTracking().AsQueryable();
+            
+            Plant? plant = plants
                 .Include(p=>p.PlantTags).ThenInclude(pt=>pt.Tags)
-                .Include(p=>p.Images)
-                .Include(p=>p.DeliveryInfo)
-                .FirstOrDefault(p=>p.Id == Id);
+                    .Include(p=>p.Images)
+                        .Include(p=>p.DeliveryInfo)
+                            .Include(p => p.PlantCategories)
+                                .ThenInclude(pc => pc.Categories).AsSingleQuery().FirstOrDefault(p => p.Id == Id);
+
             if (plant == null) return NotFound();
 
-            ViewBag.Relateds = _context.Plants.Include(p=>p.Images)
-                .Take(6)
-                .ToList();
-            
+            ViewBag.Relateds = RelatedPlants(plants, plant, Id);
+
             return View(plant);
+        }
+
+        public List<Plant> RelatedPlants(IQueryable<Plant> plants, Plant plant, int Id)
+        {
+            List<Plant> relateds = new();
+
+            plant.PlantCategories.ForEach(pc =>
+            {
+                List<Plant> related = plants.Include(p=>p.Images)
+                 .Include(p => p.PlantCategories)
+                            .ThenInclude(pc => pc.Categories)
+                                .AsEnumerable()
+                                        .Where(
+                                            p => p.PlantCategories.Contains(pc, new PlantCategoryComparer())
+                                            && p.Id != Id
+                                            && !relateds.Contains(p, new PlantComparer())
+                                        )
+                                        .ToList();
+                relateds.AddRange(related);
+            });
+            return relateds;
         }
 
         public IActionResult AddToBasket(int Id)
