@@ -3,6 +3,7 @@
 
 @{
     ViewData["Title"] = "Edit";
+    PlantSizeColor quantities = ViewBag.Quantities;
 }
 @section CSS{
     <style>
@@ -107,16 +108,16 @@
             <div class="form-group">
                 <label asp-for="PlantDeliveryInfoId" class="control-label"></label>
                 <select asp-for="PlantDeliveryInfoId" class="form-control" >
-                        @foreach (var plantDeliverInfo in ViewBag.PlantDeliveryInfos)
+                     @foreach (var plantDeliverInfo in ViewBag.PlantDeliveryInfos)
+                    {
+                        if (plantDeliverInfo.Id == Model.PlantDeliveryInfoId)
                         {
-                            if (plantDeliverInfo.Id == Model.PlantDeliveryInfoId)
-                            {
-                                <option value="@plantDeliverInfo.Id" selected>@plantDeliverInfo.Shipping</option>
-                            }
-                            else
-                            {
-                                <option value="@plantDeliverInfo.Id">@plantDeliverInfo.Shipping</option>
-                            }
+                            <option value="@plantDeliverInfo.Id" selected>@plantDeliverInfo.Shipping</option>
+                        }
+                        else
+                        {
+                            <option value="@plantDeliverInfo.Id">@plantDeliverInfo.Shipping</option>
+                        }
                     }
                 </select>
                 <span asp-validation-for="PlantDeliveryInfoId" class="text-danger"></span>
@@ -156,37 +157,6 @@
                 <span asp-validation-for="PlantDeliveryInfoId" class="text-danger"></span>
             </div>
             <div class="form-group">
-@*                <label asp-for="ColorIds" class="control-label"></label>
-                <select name="@Model.ColorIds" id="@Model.ColorIds" class="form-control">
-                    @foreach (var color in ViewBag.Colors)
-                    {
-                        if (Model.ColorIds.Any(id => id == color.Id))
-                        {
-                            <option value="@color.Id" selected>@color.Name</option>
-                        }
-                        else
-                        {
-                            <option value="@color.Id">@color.Name</option>
-                        }
-                    }
-                </select>
-                <span asp-validation-for="ColorIds" class="text-danger"></span>
-
-                <label asp-for="SizeIds" class="control-label"></label>
-                <select name="@Model.SizeIds" id="@Model.SizeIds" class="form-control">
-                    @foreach (var size in ViewBag.Sizes)
-                    {
-                        if (Model.SizeIds.Any(id => id == size.Id))
-                        {
-                            <option value="@size.Id" selected>@size.Name</option>
-                        }
-                        else
-                        {
-                            <option value="@size.Id">@size.Name</option>
-                        }
-                    }
-                </select>
-                <span asp-validation-for="ColorIds" class="text-danger"></span>*@
 
                 @foreach (var item in ViewBag.Quantites)
                 {
@@ -207,11 +177,17 @@
                                 <option value="" selected>@item.Size.Name</option>
                             </select>
                         }
-                        <label name="@item.Quantity"  class="control-label">Quantity</label>
-                        <input name="@item.Quantity" id="@item.Quantity" value="@item.Quantity" type="text"/><br/>
+                        <label name="@item.Id"  class="control-label">Quantity</label>
+                        <input name="@item.Quantity" id="@item.Id" value="@item.Quantity" type="text"/><br/>
+
                     }
                 }
+                <div style="margin:10px 0px">
+                    Total Quantity: @Model.PlantSizeColors.Sum(p=>p.Quantity)
+                </div>
 
+                @*burada elave etme butonu olmalidir. biz movcud reng ve olcu deyerlerini deyismek evezine, sadece sayilarini deyise bilerik. mentiq odur ki,
+                cesidlilik qorunsun, say ise dinamik olsun. eger data yararsiz olarsa, silme butonu olacaq*@
                 <label asp-for="Price" class="control-label"></label>
                 <input asp-for="Price" class="form-control" />
                 <span asp-validation-for="Price" class="text-danger"></span>

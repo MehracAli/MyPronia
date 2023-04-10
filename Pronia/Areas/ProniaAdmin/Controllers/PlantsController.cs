@@ -225,6 +225,7 @@ namespace Pronia.Areas.ProniaAdmin.Controllers
                 plant.PlantTags.Add(plantTag);
             }
 
+
             plant.Images.RemoveAll(i=> !editedPlant.ImageIds.Contains(i.Id));
             _context.SaveChanges();
             return RedirectToAction("Edit", "Plants") ;

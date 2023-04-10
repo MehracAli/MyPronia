@@ -29,5 +29,6 @@ namespace Pronia.ViewModels
         public IFormFile IsMainImage { get; set; } = null;
         [NotMapped]
         public IFormFile HoverImage { get; set; } = null;
+        public string? ColorSizeQuantity { get; set; }
     }
 }
