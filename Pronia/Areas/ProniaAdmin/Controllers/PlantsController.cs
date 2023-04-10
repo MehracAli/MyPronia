@@ -158,7 +158,9 @@ namespace Pronia.Areas.ProniaAdmin.Controllers
             ViewBag.Tags = _context.Tags.AsEnumerable();
             ViewBag.Colors = _context.Colors.AsEnumerable();
             ViewBag.Sizes = _context.Sizes.AsEnumerable();
-            ViewBag.Quantites = _context.PlantSizeColors.AsEnumerable();
+            ViewBag.Quantites = _context.PlantSizeColors.Include(psc=>psc.Color)
+                                                            .Include(psc => psc.Size)
+                                                                .AsEnumerable();
 
             return View(plantVM);
         }

@@ -196,15 +196,15 @@
                         {
                             <label asp-for="ColorIds" class="control-label"></label>
                             <select name="@Model.ColorIds" id="@Model.ColorIds">
-                                <option name="" id="" value="" selected></option>
+                                <option name="" id="" value="" selected>@item.Color.Name</option>
                             </select>
                         }
 
                         if (Model.SizeIds.Any(id => id == item.SizeId))
                         {
                             <label asp-for="SizeIds" class="control-label"></label>
-                            <select "@Model.SizeIds" id="@Model.SizeIds">
-                                <option value="" selected></option>
+                            <select name="@Model.SizeIds" id="@Model.SizeIds">
+                                <option value="" selected>@item.Size.Name</option>
                             </select>
                         }
                         <label name="@item.Quantity"  class="control-label">Quantity</label>
