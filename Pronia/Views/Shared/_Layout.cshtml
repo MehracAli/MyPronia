@@ -148,16 +148,33 @@
                           class="dropdown-menu"
                           aria-labelledby="settingButton"
                         >
-                          <li>
-                            <a class="dropdown-item" href="my-account.html"
-                              >My account</a
-                            >
-                          </li>
-                          <li>
-                            <a class="dropdown-item" href="login-register.html"
-                              >Login | Register</a
-                            >
-                          </li>
+                        @if(User.Identity.IsAuthenticated){
+                                                <li style="margin-left:20px">
+                                                    <span>
+                                                        @User.Identity.Name
+                                                    </span>
+                                                </li>
+                              <li>
+                                <a asp-controller="Account" asp-action="Show" class="dropdown-item">My account</a
+                                >
+                              </li>
+                              <li>
+                                <a asp-controller="Account" asp-action="Logout" class="dropdown-item"
+                                  >Logout</a
+                                >
+                              </li>
+                        }
+                        else{
+                              <li>
+                                <a asp-controller="Account" asp-action="Login" class="dropdown-item"
+                                  >Login</a
+                                >
+                              </li>
+                              <li>
+                                 <a asp-controller="Account" asp-action="Register" class="dropdown-item">Register</a
+                                >
+                              </li>
+                        }
                         </ul>
                       </li>
                       <li class="d-none d-lg-block">
@@ -519,16 +536,29 @@
                           class="dropdown-menu"
                           aria-labelledby="stickysettingButton"
                         >
-                          <li>
-                            <a class="dropdown-item" href="my-account.html"
-                              >My account</a
-                            >
-                          </li>
-                          <li>
-                            <a class="dropdown-item" href="login-register.html"
-                              >Login | Register</a
-                            >
-                          </li>
+                                            @if (User.Identity.IsAuthenticated)
+                                            {
+                                                <li style="margin-left:20px">
+                                                    <span>
+                                                        @User.Identity.Name
+                                                    </span>
+                                                </li>
+                                                <li>
+                                                    <a asp-controller="Account" asp-action="Show" class="dropdown-item">My account</a>
+                                                </li>
+                                                <li>
+                                                    <a asp-controller="Account" asp-action="Logout" class="dropdown-item">Logout</a>
+                                                </li>
+                                            }
+                                            else
+                                            {
+                                                <li>
+                                                    <a asp-controller="Account" asp-action="Login" class="dropdown-item">Login</a>
+                                                </li>
+                                                <li>
+                                                    <a asp-controller="Account" asp-action="Login" class="dropdown-item">Register</a>
+                                                </li>
+                                            }
                         </ul>
                       </li>
                       <li class="d-none d-lg-block">
@@ -1412,6 +1442,7 @@
     <script src="~/assets/js/plugins/ion.rangeSlider.min.js"></script>
     <script src="~/assets/js/plugins/mailchimp-ajax.js"></script>
     <script src="~/assets/js/plugins/jquery.counterup.js"></script>
+    @RenderSection("Scripts",false)
 
     <!--Main JS (Common Activation Codes)-->
     <script src="~/assets/js/main.js"></script>

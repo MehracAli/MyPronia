@@ -1,0 +1,229 @@
+﻿@using Pronia.Entities.PlantModels;
+@model Pronia.ViewModels.PlantVM
+
+@{
+    ViewData["Title"] = "Edit";
+}
+@section CSS{
+    <style>
+        .relative{
+            position:relative;
+            margin:10px;
+            display:flex;
+            justify-content:center;
+        }
+        .borderImage{
+            border: 1px dashed black;
+        }
+        .borderIsMain{
+            border:2px dashed red;
+        }
+        .closeBtn{
+            width:30px;
+            height:30px;
+            background-color:red;
+            color:white;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            position:absolute;
+            top:5px;
+            left:5px;
+        }
+        .mainSpan{
+            position:absolute;
+            top:0;
+            left:25%;
+        }
+    </style>
+}
+@section Scripts{
+    <script>
+        let closeBtns = document.querySelectorAll(".closeBtn")
+
+        closeBtns.forEach(btn=>{
+            btn.addEventListener("click",function(){
+                this.parentElement.remove();
+                console.log(this.parent);
+            })
+        })
+    </script>
+}
+<h1>Edit</h1>
+
+<h4>PlantVM</h4>
+<hr />
+<div class="row">
+    <div style="margin-left:50px" class="col-md-6">
+        <form asp-action="Edit" enctype="multipart/form-data">
+            <div class="row images">
+                @foreach (var item in Model.SpecificImages)
+                {
+                    <div class="relative image col-3 @(item.IsMain == true ? "borderIsMain":"borderImage")">
+                        <img style="width:150px;height:150px;object-fit:contain" src="~/assets/images/website-images/@item.ImagePath"/>
+                        @if(item.IsMain is not true){
+                            <button type="button" class="closeBtn">x</button>
+                        }
+                        else
+                        {
+                            <span class="mainSpan">Main Photo</span>
+                        }
+                        <input type="hidden" name="ImageIds" value="@item.Id"/>
+                    </div>
+                }
+            </div>
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="IsMainImage" class="control-label"></label>
+                <input asp-for="IsMainImage" class="form-control" />
+                <span asp-validation-for="IsMainImage" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="HoverImage" class="control-label"></label>
+                <input asp-for="HoverImage" class="form-control" />
+                <span asp-validation-for="HoverImage" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Images" class="control-label"></label>
+                <input asp-for="Images" class="form-control" />
+                <span asp-validation-for="Images" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SKU" class="control-label"></label>
+                <input asp-for="SKU" class="form-control" />
+                <span asp-validation-for="SKU" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PlantDeliveryInfoId" class="control-label"></label>
+                <select asp-for="PlantDeliveryInfoId" class="form-control" >
+                        @foreach (var plantDeliverInfo in ViewBag.PlantDeliveryInfos)
+                        {
+                            if (plantDeliverInfo.Id == Model.PlantDeliveryInfoId)
+                            {
+                                <option value="@plantDeliverInfo.Id" selected>@plantDeliverInfo.Shipping</option>
+                            }
+                            else
+                            {
+                                <option value="@plantDeliverInfo.Id">@plantDeliverInfo.Shipping</option>
+                            }
+                    }
+                </select>
+                <span asp-validation-for="PlantDeliveryInfoId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CategoriesIds" class="control-label"></label>
+                <select asp-for="CategoriesIds" class="form-control">
+                    @foreach (var category in ViewBag.Categories)
+                    {
+                        if(Model.CategoriesIds.Any(id=>id == category.Id))
+                        {
+                            <option value="@category.Id" selected>@category.Name</option>
+                        }
+                        else
+                        {
+                            <option value="@category.Id">@category.Name</option>
+                        }
+                    }
+                </select>
+                <span asp-validation-for="CategoriesIds" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TagsIds" class="control-label"></label>
+                <select asp-for="TagsIds" class="form-control">
+                    @foreach (var tag in ViewBag.Tags)
+                    {
+                        if (Model.TagsIds.Any(id=> id == tag.Id))
+                        {
+                            <option value="@tag.Id" selected>@tag.Name</option>
+                        }
+                        else
+                        {
+                            <option value="@tag.Id">@tag.Name</option>
+                        }
+                    }
+                </select>
+                <span asp-validation-for="PlantDeliveryInfoId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+@*                <label asp-for="ColorIds" class="control-label"></label>
+                <select name="@Model.ColorIds" id="@Model.ColorIds" class="form-control">
+                    @foreach (var color in ViewBag.Colors)
+                    {
+                        if (Model.ColorIds.Any(id => id == color.Id))
+                        {
+                            <option value="@color.Id" selected>@color.Name</option>
+                        }
+                        else
+                        {
+                            <option value="@color.Id">@color.Name</option>
+                        }
+                    }
+                </select>
+                <span asp-validation-for="ColorIds" class="text-danger"></span>
+
+                <label asp-for="SizeIds" class="control-label"></label>
+                <select name="@Model.SizeIds" id="@Model.SizeIds" class="form-control">
+                    @foreach (var size in ViewBag.Sizes)
+                    {
+                        if (Model.SizeIds.Any(id => id == size.Id))
+                        {
+                            <option value="@size.Id" selected>@size.Name</option>
+                        }
+                        else
+                        {
+                            <option value="@size.Id">@size.Name</option>
+                        }
+                    }
+                </select>
+                <span asp-validation-for="ColorIds" class="text-danger"></span>*@
+
+                @foreach (var item in ViewBag.Quantites)
+                {
+                    if(Model.PlantSizeColors.Any(psc=>psc.Id == item.Id))
+                    {
+                        if(Model.ColorIds.Any(id=> id == item.ColorId))
+                        {
+                            <label asp-for="ColorIds" class="control-label"></label>
+                            <select name="@Model.ColorIds" id="@Model.ColorIds">
+                                <option name="" id="" value="" selected></option>
+                            </select>
+                        }
+
+                        if (Model.SizeIds.Any(id => id == item.SizeId))
+                        {
+                            <label asp-for="SizeIds" class="control-label"></label>
+                            <select "@Model.SizeIds" id="@Model.SizeIds">
+                                <option value="" selected></option>
+                            </select>
+                        }
+                        <label name="@item.Quantity"  class="control-label">Quantity</label>
+                        <input name="@item.Quantity" id="@item.Quantity" value="@item.Quantity" type="text"/><br/>
+                    }
+                }
+
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

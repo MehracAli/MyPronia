@@ -1,5 +1,7 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Pronia.DAL;
+using Pronia.Entities.UserModels;
 using Pronia.Services;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,6 +14,23 @@ builder.Services.AddDbContext<ProniaDbContext>(opt =>
 });
 builder.Services.AddScoped<LayoutService>();
 builder.Services.AddHttpContextAccessor();
+builder.Services.AddIdentity<User, IdentityRole>(opt =>
+{
+    opt.Password.RequiredUniqueChars = 3;
+    opt.Password.RequireNonAlphanumeric = false;
+    opt.Password.RequiredLength = 6;
+    opt.Password.RequireDigit = true;
+    opt.Password.RequireLowercase = true;
+    opt.Password.RequireUppercase = false;
+
+    opt.User.RequireUniqueEmail = false;
+    opt.User.AllowedUserNameCharacters = "qwertyuiopasdfghjklzxcvbnm";
+
+    opt.Lockout.MaxFailedAccessAttempts = 5;
+    opt.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
+}).AddDefaultTokenProviders().AddEntityFrameworkStores<ProniaDbContext>();
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -28,9 +47,17 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+app.UseAuthentication();
 
-app.MapControllerRoute(
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllerRoute(
+                name: "areas",
+                pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"
+              );
+    endpoints.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+});
 
 app.Run();

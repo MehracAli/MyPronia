@@ -1,4 +1,6 @@
-﻿namespace Pronia.Entities.SliderModels
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Pronia.Entities.SliderModels
 {
     public class Slider : BaseEntity
     {
@@ -9,5 +11,7 @@
         public string Description { get; set; }
         public LeftIcon Previous { get; set; }
         public RightIcon Next { get; set; }
+        [NotMapped]
+        public IFormFile? Image { get; set; }
     }
 }

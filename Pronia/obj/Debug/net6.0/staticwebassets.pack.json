@@ -1,6 +1,450 @@
 {
   "Files": [
     {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\css\\maps\\style.css.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\maps\\style.css.map"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\fonts\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\.DS_Store"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\fonts\\Roboto\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\.DS_Store"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\fonts\\Roboto\\Roboto-Black.eot",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\Roboto-Black.eot"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\fonts\\Roboto\\Roboto-Black.ttf",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\Roboto-Black.ttf"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\fonts\\Roboto\\Roboto-Black.woff",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\Roboto-Black.woff"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\fonts\\Roboto\\Roboto-Black.woff2",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\Roboto-Black.woff2"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\fonts\\Roboto\\Roboto-Bold.eot",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\Roboto-Bold.eot"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\fonts\\Roboto\\Roboto-Bold.ttf",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\Roboto-Bold.ttf"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\fonts\\Roboto\\Roboto-Bold.woff",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\Roboto-Bold.woff"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\fonts\\Roboto\\Roboto-Bold.woff2",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\Roboto-Bold.woff2"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\fonts\\Roboto\\Roboto-Light.eot",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\Roboto-Light.eot"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\fonts\\Roboto\\Roboto-Light.ttf",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\Roboto-Light.ttf"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\fonts\\Roboto\\Roboto-Light.woff",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\Roboto-Light.woff"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\fonts\\Roboto\\Roboto-Light.woff2",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\Roboto-Light.woff2"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\fonts\\Roboto\\Roboto-Medium.eot",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\Roboto-Medium.eot"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\fonts\\Roboto\\Roboto-Medium.ttf",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\Roboto-Medium.ttf"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\fonts\\Roboto\\Roboto-Medium.woff",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\Roboto-Medium.woff"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\fonts\\Roboto\\Roboto-Medium.woff2",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\Roboto-Medium.woff2"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\fonts\\Roboto\\Roboto-Regular.eot",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\Roboto-Regular.eot"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\fonts\\Roboto\\Roboto-Regular.ttf",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\Roboto-Regular.ttf"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\fonts\\Roboto\\Roboto-Regular.woff",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\Roboto-Regular.woff"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\fonts\\Roboto\\Roboto-Regular.woff2",
+      "PackagePath": "staticwebassets\\admin\\assets\\fonts\\Roboto\\Roboto-Regular.woff2"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\images\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\.DS_Store"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\images\\auth\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\auth\\.DS_Store"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\images\\auth\\lockscreen-bg.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\auth\\lockscreen-bg.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\images\\auth\\login-bg.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\auth\\login-bg.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\images\\auth\\register-bg.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\auth\\register-bg.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\images\\faces\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\.DS_Store"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\images\\faces\\face1.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face1.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\images\\faces\\face10.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face10.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\images\\faces\\face11.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face11.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\images\\faces\\face12.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face12.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\images\\faces\\face13.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face13.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\images\\faces\\face14.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face14.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\images\\faces\\face15.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face15.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\images\\faces\\face16.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face16.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\images\\faces\\face17.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face17.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\images\\faces\\face18.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face18.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\images\\faces\\face19.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face19.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\images\\faces\\face2.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face2.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\images\\faces\\face20.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face20.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\images\\faces\\face21.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face21.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\images\\faces\\face22.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face22.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\images\\faces\\face23.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face23.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\images\\faces\\face24.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face24.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\images\\faces\\face25.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face25.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\images\\faces\\face26.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face26.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\images\\faces\\face27.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face27.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\images\\faces\\face3.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face3.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\images\\faces\\face4.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face4.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\images\\faces\\face5.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face5.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\images\\faces\\face6.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face6.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\images\\faces\\face7.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face7.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\images\\faces\\face8.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face8.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\images\\faces\\face9.jpg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\faces\\face9.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\favicon.ico"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\favicon.png"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\images\\logo-mini.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\logo-mini.svg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\admin\\assets\\images\\logo.svg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\js\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\.DS_Store"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\Chart.min.js"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\js\\chart.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\chart.js"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\dashboard.js"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\js\\data-table.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\data-table.js"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\js\\dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\js\\documentation.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\documentation.js"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\js\\file-upload.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\file-upload.js"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\js\\hoverable-collapse.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\hoverable-collapse.js"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\js\\jquery.cookie.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\jquery.cookie.js"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\js\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\jquery.dataTables.js"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\js\\off-canvas.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\off-canvas.js"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\js\\tabs.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\tabs.js"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\js\\template.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\js\\template.js"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\pages\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\assets\\pages\\.DS_Store"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\pages\\charts\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\assets\\pages\\charts\\.DS_Store"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\pages\\charts\\chartjs.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\pages\\charts\\chartjs.html"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\pages\\forms\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\assets\\pages\\forms\\.DS_Store"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\pages\\forms\\basic_elements.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\pages\\forms\\basic_elements.html"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\pages\\icons\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\assets\\pages\\icons\\.DS_Store"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\pages\\icons\\mdi.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\pages\\icons\\mdi.html"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\pages\\samples\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\assets\\pages\\samples\\.DS_Store"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\pages\\samples\\lock-screen.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\pages\\samples\\lock-screen.html"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\pages\\samples\\login-2.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\pages\\samples\\login-2.html"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\pages\\samples\\login.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\pages\\samples\\login.html"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\pages\\samples\\register-2.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\pages\\samples\\register-2.html"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\pages\\samples\\register.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\pages\\samples\\register.html"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\pages\\tables\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\assets\\pages\\tables\\.DS_Store"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\pages\\tables\\basic-table.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\pages\\tables\\basic-table.html"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\pages\\ui-features\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\assets\\pages\\ui-features\\.DS_Store"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\pages\\ui-features\\buttons.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\pages\\ui-features\\buttons.html"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\pages\\ui-features\\typography.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\pages\\ui-features\\typography.html"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\partials\\_footer.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\partials\\_footer.html"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\partials\\_navbar.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\partials\\_navbar.html"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\partials\\_settings-panel.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\partials\\_settings-panel.html"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\partials\\_sidebar.html",
+      "PackagePath": "staticwebassets\\admin\\assets\\partials\\_sidebar.html"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\vendors\\.DS_Store",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendors\\.DS_Store"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\vendors\\base\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendors\\base\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\vendors\\base\\vendor.bundle.base.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendors\\base\\vendor.bundle.base.css"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\vendors\\base\\vendor.bundle.base.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendors\\base\\vendor.bundle.base.js"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\vendors\\chart.js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendors\\chart.js\\Chart.min.js"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.css"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendors\\datatables.net-bs4\\dataTables.bootstrap4.js"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\vendors\\datatables.net\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendors\\datatables.net\\jquery.dataTables.js"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css.map",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendors\\mdi\\css\\materialdesignicons.min.css.map"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.eot"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.ttf"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\admin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2",
+      "PackagePath": "staticwebassets\\admin\\assets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2"
+    },
+    {
       "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\css\\Pe-icon-7-stroke.css",
       "PackagePath": "staticwebassets\\assets\\css\\Pe-icon-7-stroke.css"
     },
@@ -445,24 +889,12 @@
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\1--1rnu4p.png"
     },
     {
-      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\1-1-1820x443.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\1-1-1820x443.jpg"
-    },
-    {
       "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\1-1-270x300.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\1-1-270x300.jpg"
     },
     {
-      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\1-1-310x220.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\1-1-310x220.jpg"
-    },
-    {
       "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\1-1-524x617.png",
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\1-1-524x617.png"
-    },
-    {
-      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\1-1-570x633.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\1-1-570x633.jpg"
     },
     {
       "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\1-1-770x300.jpg",
@@ -481,20 +913,8 @@
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\1-10-270x300.jpg"
     },
     {
-      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\1-11-270x300.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\1-11-270x300.jpg"
-    },
-    {
       "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\1-1170x300.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\1-1170x300.jpg"
-    },
-    {
-      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\1-1920x465.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\1-1920x465.jpg"
-    },
-    {
-      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\1-2-270x300.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\1-2-270x300.jpg"
     },
     {
       "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\1-2-310x220.jpg",
@@ -505,16 +925,16 @@
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\1-2-370x300.jpg"
     },
     {
-      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\1-2-524x617.png",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\1-2-524x617.png"
-    },
-    {
       "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\1-2-570x633.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\1-2-570x633.jpg"
     },
     {
       "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\1-2.png",
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\1-2.png"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\1-2.pngSystem.Random",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\1-2.pngSystem.Random"
     },
     {
       "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\1-270x300.webp",
@@ -573,8 +993,16 @@
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\1-7-270x300.jpg"
     },
     {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\1-8-270x300 - Copy.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\1-8-270x300 - Copy.jpg"
+    },
+    {
       "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\1-8-270x300.jpg",
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\1-8-270x300.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\1-9-270x300 - Copy.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\1-9-270x300 - Copy.jpg"
     },
     {
       "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\1-9-270x300.jpg",
@@ -583,6 +1011,50 @@
     {
       "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\1.png",
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\1.png"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\1191-6-270x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\1191-6-270x300.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\131-9-270x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\131-9-270x300.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\1321-1-524x617.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\1321-1-524x617.png"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\141-1-524x617.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\141-1-524x617.png"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\1461-3-370x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\1461-3-370x300.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\1521-7-270x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\1521-7-270x300.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\161--1rnu4p.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\161--1rnu4p.png"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\1681-1-524x617.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\1681-1-524x617.png"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\1831-1-524x617.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\1831-1-524x617.png"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\1961-1-524x617.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\1961-1-524x617.png"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\1961-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\1961-2.png"
     },
     {
       "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\2-1-70x78.png",
@@ -601,8 +1073,260 @@
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\2.png"
     },
     {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\201-1-524x617.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\201-1-524x617.png"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\21-1-524x617.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\21-1-524x617.png"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\2151-6-270x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\2151-6-270x300.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\2171-5-270x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\2171-5-270x300.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\2371-5-270x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\2371-5-270x300.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\2731-3-570x633.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\2731-3-570x633.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\2761-7-270x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\2761-7-270x300.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\2861-9-270x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\2861-9-270x300.jpg"
+    },
+    {
       "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\3.png",
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\3.png"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\3101-2-570x633.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\3101-2-570x633.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\3151-1-524x617.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\3151-1-524x617.png"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\3401--1rnu4p.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\3401--1rnu4p.png"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\3611-1-524x617.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\3611-1-524x617.png"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\3701-7-270x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\3701-7-270x300.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\3771-3-570x633.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\3771-3-570x633.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\3821-1-524x617.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\3821-1-524x617.png"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\3831-1-524x617.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\3831-1-524x617.png"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\411-1-524x617.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\411-1-524x617.png"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\411-5-270x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\411-5-270x300.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\4191-1-524x617.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\4191-1-524x617.png"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\4471-6-270x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\4471-6-270x300.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\4491-10-270x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\4491-10-270x300.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\4501-10-270x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\4501-10-270x300.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\4551-7-270x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\4551-7-270x300.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\481-5-270x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\481-5-270x300.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\4841-4-270x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\4841-4-270x300.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\491-11-270x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\491-11-270x300.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\4971-3-570x633.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\4971-3-570x633.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\4981-1-524x617.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\4981-1-524x617.png"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\5101-2-310x220.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\5101-2-310x220.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\5121-1-524x617.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\5121-1-524x617.png"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\5551-5-270x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\5551-5-270x300.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\5691-1-524x617.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\5691-1-524x617.png"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\5931-3-370x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\5931-3-370x300.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\6001-3-370x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\6001-3-370x300.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\6091-2-570x633.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\6091-2-570x633.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\6191-1-524x617.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\6191-1-524x617.png"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\621--1rnu4p.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\621--1rnu4p.png"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\6511-1-524x617.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\6511-1-524x617.png"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\6901-6-270x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\6901-6-270x300.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\6991-1-524x617.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\6991-1-524x617.png"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\7161-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\7161-2.png"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\7251-6-270x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\7251-6-270x300.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\7271-1-524x617.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\7271-1-524x617.png"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\731-1-524x617.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\731-1-524x617.png"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\731-5-270x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\731-5-270x300.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\771-1-524x617.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\771-1-524x617.png"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\7961-1-524x617.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\7961-1-524x617.png"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\8061-7-270x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\8061-7-270x300.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\8111-1-524x617.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\8111-1-524x617.png"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\8181-5-270x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\8181-5-270x300.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\8191-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\8191-2.png"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\8231-6-270x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\8231-6-270x300.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\8321-6-270x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\8321-6-270x300.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\8451-1-524x617.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\8451-1-524x617.png"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\8511-7-270x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\8511-7-270x300.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\8661-5-270x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\8661-5-270x300.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\8981--1rnu4p.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\8981--1rnu4p.png"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\9181-2-570x633.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\9181-2-570x633.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\9481-7-270x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\9481-7-270x300.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\9651-1-524x617.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\9651-1-524x617.png"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\9691-6-270x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\9691-6-270x300.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\9741-11-270x300.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\9741-11-270x300.jpg"
+    },
+    {
+      "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\9831-1-524x617.png",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\9831-1-524x617.png"
     },
     {
       "Id": "D:\\MyPronia\\Back\\Pronia\\Pronia\\wwwroot\\assets\\images\\website-images\\car.png",
